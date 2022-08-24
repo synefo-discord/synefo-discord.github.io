@@ -2,7 +2,7 @@
 
 :root {
     --main-text-color: #000;
-    --main-bg: linear-gradient(275deg, rgba(255,252,171,1) 0%, rgba(255,224,172,1) 50%, rgba(255,140,140,1) 100%);;
+    --main-bg: linear-gradient(275deg, #56DEE4 0%, #43D9DF 50%, #17CBD2 100%);
 }
 *{
     font-family: 'Fredoka One', sans-serif;
@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 200px ;
+    padding: 20px 200px ;
     background: var(--main-bg);
     background-size: cover;
     background-position: center;
@@ -41,14 +41,13 @@ header {
 }
 .header-logo {
     border-radius: 100%;
-    width: 50px;
+    width: 75px;
 }
 
 /* Home */
 
 .main-body {
     width: 100%;
-    min-height: 100vh;
     background: var(--main-bg);
     background-size: cover;
     background-position: center;
@@ -59,7 +58,7 @@ header {
     font-size: 6em;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -99,7 +98,7 @@ header {
 }
 .card {
     min-height: 7em;
-    width: 14em;
+    width: 28em;
     overflow: hidden;
     border-radius: 10px;
     margin-right: 10px;
