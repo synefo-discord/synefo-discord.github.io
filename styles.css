@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One');
 
 :root {
-    --main-text-color: #000;
+    --main-text-color: #ffffff;
     --main-bg: linear-gradient(275deg, #56DEE4 0%, #43D9DF 50%, #17CBD2 100%);
 }
 *{
